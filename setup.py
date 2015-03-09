@@ -90,3 +90,6 @@ should manually remove the
 directory and re-install Django.
 
 """ % {"existing_path": existing_path})
+
+
+siemanko
