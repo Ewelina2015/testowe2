@@ -7,7 +7,7 @@ from distutils.sysconfig import get_python_lib
 # Warn if we are installing over top of an existing installation. This can
 # cause issues where files that were deleted from a more recent Django are
 # still present in site-packages. See #18115.
-overlay_warning = False
+overlay_warning = True
 if "install" in sys.argv:
     lib_paths = [get_python_lib()]
     if lib_paths[0].startswith("/usr/lib/"):
